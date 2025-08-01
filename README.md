@@ -39,9 +39,6 @@ Retrieve → Finds top-k relevant chunks for a given question
 Answer → Uses a local LLaMA model to generate an answer from the chunk
 
 📦 Installation
-bash
-Copy
-Edit
 pip install huggingface-hub langchain chromadb llama-cpp-python
 ⚠️ Make sure to set your LLAMAPARSE API key in your environment (e.g., via userdata.get() in Colab).
 
